@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "九天之上",
+    title: "简单生活的万事屋",
     // 站点描述
     description: "基于 vitepress-theme-curve 搭建的 github pages 站点",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog2.811520.xyz",
+    site: "https://renxiuf.github.io",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "雨天狂奔",
+      name: "热爱生活的菇凉",
       cover: "/images/logo/logo.webp",
       email: "admin@24811213.xyz",
-      link: "https://daoyi.hidns.vip/#/",
+      link: "https://renxiuf.github.io",
     },
   },
   // 备案信息
-  icp: "鄂ICP备202411-001号",
+  // icp: "鄂ICP备202411-001号",
   // 建站日期
-  since: "2024-11-1",
+  since: "2025-8-23",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog2.811520.xyz/rss.xml",
+          href: "https://renxiuf.github.io/rss.xml",
         },
       ],
       // 预载 CDN
@@ -137,7 +137,7 @@ export const themeConfig = {
       ],
     },
     {
-      text: "关于",
+      text: "我的",
       items: [
         { text: "关于本站", link: "/pages/about", icon: "contacts" },
         { text: "隐私政策", link: "/pages/privacy", icon: "chat" },
@@ -257,20 +257,20 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:admin@24811213.xyz",
+        link: "xiuzs_1366@163.com",
       },
       {
         icon: "github",
-        link: "https://github.com/yutian81/",
+        link: "https://renxiuf.github.io",
       },
-      {
-        icon: "telegram",
-        link: "https://t.me/yutian88881",
-      },
-      {
-        icon: "bilibili",
-        link: "https://space.bilibili.com/677845115",
-      },
+      // {
+      //   icon: "telegram",
+      //   link: "https://t.me/yutian88881",
+      // },
+      // {
+      //   icon: "bilibili",
+      //   link: "https://space.bilibili.com/677845115",
+      // },
     ],
     // sitemap
     sitemap: [
@@ -348,9 +348,9 @@ export const themeConfig = {
     twikoo: {
       // 必填，若不想使用 CDN，可以使用 pnpm add twikoo 安装并引入
       js: "https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/twikoo/1.6.39/twikoo.all.min.js",
-      envId: "https://twikoo.24811213.xyz/",
+      envId: "",
       // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
-      region: "",
+      region: "ap-shanghai",
       lang: "zh-CN",
     },
   },
@@ -375,7 +375,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-05-01",
+        date: "2026-02-17",
       },
     },
     // 站点数据
@@ -386,7 +386,7 @@ export const themeConfig = {
   // 友链
   friends: {
     // 友链朋友圈
-    circleOfFriends: "https://blog2.811520.xyz/blogrss/",
+    circleOfFriends: "",
     // 动态友链
     dynamicLink: {
       server: "",
@@ -399,7 +399,7 @@ export const themeConfig = {
   music: {
     enable: false,
     // url
-    url: "https://meting-api-ten.vercel.app",
+    url: "https://api-meting.example.com",
     // id
     id: 8152976493,
     // netease / tencent / kugou
@@ -410,18 +410,17 @@ export const themeConfig = {
   // 搜索
   // https://www.algolia.com/
   search: {
-    enable: true,
-    appId: "J8AAAZLZZ7",
-    apiKey: "94c1d72ea8e1533fc67c3e7244c7e196",
-    indexName: "daoyi-wiki",
+    enable: false,
+    appId: "",
+    apiKey: "",
   },
   // 打赏
   rewardData: {
-    enable: true,
+    enable: false,
     // 微信二维码
-    wechat: "https://pan.811520.xyz/2024-11/1730603920-wechatpay.webp",
+    wechat: "",
     // 支付宝二维码
-    alipay: "https://pan.811520.xyz/2024-11/1730603921-alipay.webp",
+    alipay: "",
   },
   // 图片灯箱
   fancybox: {
@@ -454,6 +453,6 @@ export const themeConfig = {
   },
   // 站点统计
   tongji: {
-    "51la": "3LlkSubt2HvotYRj",
+    "51la": "",
   },
 };
