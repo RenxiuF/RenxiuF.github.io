@@ -145,6 +145,12 @@ export const themeConfig = {
         { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
       ],
     },
+    {
+      text: "关于本站",
+      items: [
+        { text: "博客发展", link: "/pages/categories/博客发展", icon: "tools" },
+      ],
+    },
   ],
   // 导航栏菜单 - 左侧
   navMore: [
