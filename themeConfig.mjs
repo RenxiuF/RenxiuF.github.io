@@ -5,7 +5,7 @@ export const themeConfig = {
     // 站点标题
     title: "简单生活的万事屋",
     // 站点描述
-    description: "基于 vitepress-theme-curve 搭建的 github pages 站点",
+    description: "Hello World",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
@@ -16,12 +16,12 @@ export const themeConfig = {
     author: {
       name: "热爱生活的菇凉",
       cover: "/images/logo/logo.webp",
-      email: "admin@24811213.xyz",
+      email: "xiuzs_1366@163.com",
       link: "https://renxiuf.github.io",
     },
   },
   // 备案信息
-  // icp: "鄂ICP备202411-001号",
+  icp: "暂无",
   // 建站日期
   since: "2025-8-23",
   // 每页文章数据
