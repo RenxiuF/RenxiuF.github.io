@@ -203,9 +203,9 @@ export const themeConfig = {
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
-      enable: true,
+      enable: false,
       // 封面布局方式: left | right | both
-      coverLayout: 'left',
+      coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
         'https://example.com/1.avif',
@@ -243,7 +243,7 @@ export const themeConfig = {
           { text: "近期文章", link: "/" },
           { text: "全部分类", link: "/pages/categories" },
           { text: "全部标签", link: "/pages/tags" },
-          { text: "文章归档", link: "/pages/archives" },
+          { text: "文章归档", link: "/pages/archives", newTab: true },
         ],
       },
       {
