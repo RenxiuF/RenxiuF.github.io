@@ -155,23 +155,8 @@ export const themeConfig = {
       list: [
         {
           icon: "/images/logo/logo.webp",
-          name: "博客主站",
-          url: "https://blog.811520.xyz/",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客演示站",
+          name: "主站",
           url: "/",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "个人主页",
-          url: "https://daoyi.hidns.vip/#/",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "私有工具",
-          url: "https://blog.811520.xyz/tlink/",
         },
       ],
     },
@@ -179,9 +164,9 @@ export const themeConfig = {
       name: "常用",
       list: [
         {
-          icon: "https://cover.ruom.top/favicon.ico",
-          name: "封面制作",
-          url: "https://cover.ruom.top/",
+          icon: "/images/logo/logo.webp",
+          name: "图床",
+          url: "https://imgse.com/",
         },
         {
           icon: "https://www.favicon.vip/get.php?url=img.ytian.us.kg",
@@ -189,24 +174,9 @@ export const themeConfig = {
           url: "https://img.811520.xyz/",
         },
         {
-          icon: "https://pan.811520.xyz/2024-10/插入链接.webp",
-          name: "短链生成",
-          url: "https://slink.yuzong.nyc.mn/duanlian",  
-        },
-        {
-          icon: "https://ctool.dev/favicon.ico",
-          name: "开发工具",
-          url: "https://ctool.dev/",
-        },
-        {
-          icon: "https://suburl.v1.mk/favicon.ico",
-          name: "图片压缩",
-          url: "https://imgtool.v1.mk/",
-        },
-        {
           icon: "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png",
           name: "博客仓库",
-          url: "https://github.com/yutian81/yutian81.github.io",
+          url: "https://github.com/RenxiuF/RenxiuF.github.io",
         },
       ],
     },
@@ -222,16 +192,6 @@ export const themeConfig = {
           icon: "https://rss.811520.xyz/favicon.ico",
           name: "友圈后端",
           url: "https://rss.811520.xyz/",
-        },
-        {
-          icon: "https://pan.811520.xyz/2024-11/1730634973-Cloudflare_Logo.webp",
-          name: "CF优选",
-          url: "https://blog2.811520.xyz/blogrss/",
-        },
-        {
-          icon: "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png",
-          name: "Serv00",
-          url: "https://github.com/yutian81/serv00-ct8-ssh",
         },
       ],
     },
