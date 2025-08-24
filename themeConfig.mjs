@@ -208,8 +208,9 @@ export const themeConfig = {
       coverLayout: 'left',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://pan.811520.xyz/2024-10/1728279557702.webp',
-        'https://pan.811520.xyz/2024-10/1728387512098.webp'
+        'https://example.com/1.avif',
+        'https://example.com/2.avif',
+        'https://example.com/3.avif'
       ]
     }
   },
