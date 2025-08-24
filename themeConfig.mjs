@@ -14,7 +14,7 @@ export const themeConfig = {
     lang: "zh-CN",
     // 作者
     author: {
-      name: "热爱生活的菇凉",
+      name: "RenxiuF",
       cover: "/images/logo/logo.webp",
       email: "xiuzs_1366@163.com",
       link: "https://renxiuf.github.io",
@@ -122,33 +122,29 @@ export const themeConfig = {
       text: "专栏",
       items: [
         { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
-        { text: "我的项目", link: "/pages/project", icon: "code" },
-        { text: "收藏大全", link: "https://daoyi.hidns.vip/#/", icon: "tools" },
-        { text: "工作备忘", link: "/pages/categories/工作备忘", icon: "people" },
-        //{ text: "效率工具", link: "/pages/tools", icon: "tools" },
+        { text: "大模型应用开发", link: "/pages/llm", icon: "technical" }
+        // { text: "我的项目", link: "/pages/project", icon: "code" },
+        // { text: "收藏大全", link: "https://daoyi.hidns.vip/#/", icon: "tools" },
+        // { text: "工作备忘", link: "/pages/categories/工作备忘", icon: "people" },
+        // { text: "效率工具", link: "/pages/tools", icon: "tools" },
       ],
     },
     {
       text: "友圈",
       items: [
-        { text: "友圈鱼塘", link: "/pages/friends", icon: "fish" },
+        // { text: "友圈鱼塘", link: "/pages/friends", icon: "fish" },
         { text: "友情链接", link: "/pages/link", icon: "people" },
-        { text: "畅所欲言", link: "/pages/message", icon: "chat" },
+        // { text: "畅所欲言", link: "/pages/message", icon: "chat" },
       ],
     },
     {
       text: "我的",
       items: [
-        { text: "关于本站", link: "/pages/about", icon: "contacts" },
-        { text: "隐私政策", link: "/pages/privacy", icon: "chat" },
-        { text: "版权协议", link: "/pages/cc", icon: "people" },
-        { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
-      ],
-    },
-    {
-      text: "关于本站",
-      items: [
         { text: "博客发展", link: "/pages/categories/博客发展", icon: "tools" },
+        { text: "关于本站", link: "/pages/about", icon: "contacts" },
+        // { text: "隐私政策", link: "/pages/privacy", icon: "chat" },
+        // { text: "版权协议", link: "/pages/cc", icon: "people" },
+        // { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
       ],
     },
   ],
