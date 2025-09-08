@@ -122,7 +122,8 @@ export const themeConfig = {
       text: "专栏",
       items: [
         { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
-        { text: "大模型应用开发", link: "/pages/llm", icon: "technical" }
+        { text: "大模型应用开发", link: "/pages/categories/大模型应用开发", icon: "tool" },
+        { text: "其他", link: "/pages/example", icon: "technical" }
         // { text: "我的项目", link: "/pages/project", icon: "code" },
         // { text: "收藏大全", link: "https://daoyi.hidns.vip/#/", icon: "tools" },
         // { text: "工作备忘", link: "/pages/categories/工作备忘", icon: "people" },
@@ -203,14 +204,13 @@ export const themeConfig = {
     // 是否开启封面显示
     showCover: {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
-      enable: false,
+      enable: true,
       // 封面布局方式: left | right | both
-      coverLayout: 'both',
+      coverLayout: 'left',
       // 默认封面(随机展示)
       defaultCover: [
-        'https://example.com/1.avif',
-        'https://example.com/2.avif',
-        'https://example.com/3.avif'
+        'https://pan.811520.xyz/2024-10/1728279557702.webp',
+        'https://pan.811520.xyz/2024-10/1728387512098.webp'
       ]
     }
   },
@@ -243,7 +243,7 @@ export const themeConfig = {
           { text: "近期文章", link: "/" },
           { text: "全部分类", link: "/pages/categories" },
           { text: "全部标签", link: "/pages/tags" },
-          { text: "文章归档", link: "/pages/archives", newTab: true },
+          { text: "文章归档", link: "/pages/archives" },
         ],
       },
       {
