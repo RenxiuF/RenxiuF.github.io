@@ -18,6 +18,7 @@ export const themeConfig = {
       cover: "/images/logo/logo.webp",
       email: "mailto:xiuzs_1366@163.com",
       link: "https://github.com/RenxiuF",
+    },
   },
   // 备案信息
   icp: "暂无",
@@ -418,6 +419,7 @@ export const themeConfig = {
     "51la": "",
   },
 };
+
 
 
 
