@@ -124,7 +124,7 @@ export const themeConfig = {
         // { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
         { text: "大模型应用开发", link: "/pages/categories/大模型应用开发", icon: "tool" },
         { text: "其他", link: "/pages/example", icon: "technical" }
-        // { text: "我的项目", link: "/pages/project", icon: "code" },
+        { text: "我的项目", link: "/pages/project", icon: "code" },
         // { text: "收藏大全", link: "https://daoyi.hidns.vip/#/", icon: "tools" },
         // { text: "工作备忘", link: "/pages/categories/工作备忘", icon: "people" },
         // { text: "效率工具", link: "/pages/tools", icon: "tools" },
@@ -419,5 +419,6 @@ export const themeConfig = {
     "51la": "",
   },
 };
+
 
 
