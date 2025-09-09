@@ -30,18 +30,18 @@ const linkData = [
         desc: "分享技术与科技生活",
         url: "https://blog.imsyy.top/",
       },
-      {
-        name: "杨幂的脚",
-        avatar: "https://raw.cmliussss.com/IMG_0038.png",
-        desc: "鲜艳的红领巾飘扬在胸前",
-        url: "https://blog.cmliussss.com/",
-      },
-      {
-        name: "梦爱吃鱼",
-        avatar: "https://pan.811520.xyz/2024-10/1728370606072.webp",
-        desc: "不负心灵，不负今生",
-        url: "https://blog.bsgun.cn/",
-      },
+      // {
+      //   name: "杨幂的脚",
+      //   avatar: "https://raw.cmliussss.com/IMG_0038.png",
+      //   desc: "鲜艳的红领巾飘扬在胸前",
+      //   url: "https://blog.cmliussss.com/",
+      // },
+      // {
+      //   name: "梦爱吃鱼",
+      //   avatar: "https://pan.811520.xyz/2024-10/1728370606072.webp",
+      //   desc: "不负心灵，不负今生",
+      //   url: "https://blog.bsgun.cn/",
+      // },
     ],
   },
   // 小伙伴们
