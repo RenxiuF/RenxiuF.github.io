@@ -16,9 +16,19 @@ export const themeConfig = {
     author: {
       name: "RenxiuF",
       cover: "/images/logo/logo.webp",
-      email: "mailto:xiuzs_1366@163.com",
-      link: "https://github.com/RenxiuF",
-    },
+      // email: "mailto:xiuzs_1366@163.com",
+      // link: "https://github.com/RenxiuF",
+      socail: [
+          {
+          icon: "email",
+          link: "mailto:xiuzs_1366@163.com",
+        },
+        {
+          icon: "github",
+          link: "https://github.com/RenxiuF",
+        },
+      },
+    ]
   },
   // 备案信息
   icp: "暂无",
@@ -419,6 +429,7 @@ export const themeConfig = {
     "51la": "",
   },
 };
+
 
 
 
