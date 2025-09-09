@@ -18,7 +18,7 @@ export const themeConfig = {
       cover: "/images/logo/logo.webp",
       // email: "mailto:xiuzs_1366@163.com",
       // link: "https://github.com/RenxiuF",
-      socail: [
+      links: [
           {
           icon: "email",
           link: "mailto:xiuzs_1366@163.com",
@@ -429,6 +429,7 @@ export const themeConfig = {
     "51la": "",
   },
 };
+
 
 
 
