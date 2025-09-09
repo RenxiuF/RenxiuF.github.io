@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main  # 每次推送到 main 分支时触发部署
-    paths-ignore:
-      - '.github/**'  # 替换为要排除的文件或文件夹路径
-      - 'pages/**'
-      - 'public/**'
-      - '.vitepress/**'
+    # paths-ignore:
+    #   - '.github/**'  # 替换为要排除的文件或文件夹路径
+    #   - 'pages/**'
+    #   - 'public/**'
+    #   - '.vitepress/**'
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
     env:
       REPO_URL: "RenxiuF/RenxiuF.github.io"  # 远程仓库的 URL
       BUILD_PATH: ".vitepress/dist"  # 构建输出路径
-      CUSTOM_DOMAIN: "RenxiuF.github.io"  # 自定义域名
+      # CUSTOM_DOMAIN: "RenxiuF.github.io"  # 自定义域名
 
     steps:
       - name: Set up Node.js
@@ -40,7 +40,7 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           cd $BUILD_PATH       
-          echo "$CUSTOM_DOMAIN" > CNAME  # 使用自定义域名
+          # echo "$CUSTOM_DOMAIN" > CNAME  # 使用自定义域名
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           # 初始化一个新的 git 仓库
