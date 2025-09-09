@@ -14,25 +14,12 @@
         <span class="desc">{{ theme.siteMeta.description }}</span>
       </div>
       <div class="link">
-        <!--
-        <a href="https://github.com/imsyy/" target="_blank" class="social-link">
+        <a href="https://github.com/RenxiuF/" target="_blank" class="social-link">
           <i class="iconfont icon-github"></i>
         </a>
-        <a href="mailto:one@imsyy.top" target="_blank" class="social-link">
+        <a href="mailto:xiuzs_1366@163.com" target="_blank" class="social-link">
           <i class="iconfont icon-email"></i>
-        </a>
-        -->
-        
-        <a
-        v-for="item in theme.siteMeta.author.links"
-        :key="item.icon"
-        :href="item.link"
-        target="_blank"
-        class="social-link"
-        >
-        <i class="iconfont" :class="`icon-${item.icon}`"></i>
-        </a>
-        
+        </a>                
       </div>
     </div>
   </div>
