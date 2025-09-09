@@ -16,8 +16,8 @@ export const themeConfig = {
     author: {
       name: "RenxiuF",
       cover: "/images/logo/logo.webp",
-      email: "xiuzs_1366@163.com",
-      link: "https://renxiuf.github.io",
+      email: "mailto:xiuzs_1366@163.com",
+      link: "https://github.com/RenxiuF",
     },
   },
   // 备案信息
@@ -121,7 +121,7 @@ export const themeConfig = {
     {
       text: "专栏",
       items: [
-        { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
+        // { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
         { text: "大模型应用开发", link: "/pages/categories/大模型应用开发", icon: "tool" },
         { text: "其他", link: "/pages/example", icon: "technical" }
         // { text: "我的项目", link: "/pages/project", icon: "code" },
@@ -169,11 +169,11 @@ export const themeConfig = {
           name: "图床",
           url: "https://imgse.com/",
         },
-        {
-          icon: "https://www.favicon.vip/get.php?url=img.ytian.us.kg",
-          name: "兰空图床",
-          url: "https://img.811520.xyz/",
-        },
+        // {
+        //   icon: "https://www.favicon.vip/get.php?url=img.ytian.us.kg",
+        //   name: "兰空图床",
+        //   url: "https://img.811520.xyz/",
+        // },
         {
           icon: "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png",
           name: "博客仓库",
@@ -181,21 +181,21 @@ export const themeConfig = {
         },
       ],
     },
-    {
-      name: "服务",
-      list: [
-        {
-          icon: "https://pan.811520.xyz/2024-11/1730875618-1730875614898.webp",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
-        },
-        {
-          icon: "https://rss.811520.xyz/favicon.ico",
-          name: "友圈后端",
-          url: "https://rss.811520.xyz/",
-        },
-      ],
-    },
+    // {
+    //   name: "服务",
+    //   list: [
+    //     {
+    //       icon: "https://pan.811520.xyz/2024-11/1730875618-1730875614898.webp",
+    //       name: "今日热榜",
+    //       url: "https://hot.imsyy.top/",
+    //     },
+    //     {
+    //       icon: "https://rss.811520.xyz/favicon.ico",
+    //       name: "友圈后端",
+    //       url: "https://rss.811520.xyz/",
+    //     },
+    //   ],
+    // },
   ],
   // 封面配置
   cover: {
@@ -220,11 +220,11 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "xiuzs_1366@163.com",
+        link: "mailto:xiuzs_1366@163.com",
       },
       {
         icon: "github",
-        link: "https://renxiuf.github.io",
+        link: "https://github.com/RenxiuF",
       },
       // {
       //   icon: "telegram",
@@ -246,31 +246,31 @@ export const themeConfig = {
           { text: "文章归档", link: "/pages/archives" },
         ],
       },
-      {
-        text: "云端平台",
-        items: [
-          { text: "Vercel", link: "https://vercel.com/", newTab: true },
-          { text: "NorthFlank", link: "https://app.northflank.com/", newTab: true },
-          { text: "Koyeb", link: "https://app.koyeb.com/", newTab: true },
-          { text: "Huawei", link: "https://www.huaweicloud.com/intl/zh-cn/", newTab: true },
-        ],
-      },
+      // {
+      //   text: "云端平台",
+      //   items: [
+      //     { text: "Vercel", link: "https://vercel.com/", newTab: true },
+      //     { text: "NorthFlank", link: "https://app.northflank.com/", newTab: true },
+      //     { text: "Koyeb", link: "https://app.koyeb.com/", newTab: true },
+      //     { text: "Huawei", link: "https://www.huaweicloud.com/intl/zh-cn/", newTab: true },
+      //   ],
+      // },
       {
         text: "我的专栏",
         items: [
-          { text: "技术分享", link: "/pages/categories/技术分享" },
-          { text: "我的项目", link: "/pages/project" },
-          { text: "收藏大全", link: "https://daoyi.hidns.vip/#/", newTab: true },
-          { text: "工作备忘", link: "/pages/categories/工作备忘" },
+          { text: "大模型应用开发", link: "/pages/categories/大模型应用开发" },
+          // { text: "我的项目", link: "/pages/project" },
+          // { text: "收藏大全", link: "https://daoyi.hidns.vip/#/", newTab: true },
+          // { text: "工作备忘", link: "/pages/categories/工作备忘" },
         ],
       },
       {
-        text: "项目推荐",
+        text: "项目",
         items: [
-          { text: "edgetunnel", link: "https://github.com/cmliu/edgetunnel", newTab: true },
-          { text: "twikoo", link: "https://github.com/yutian81/twikoo", newTab: true },
-          { text: "alist", link: "https://alist.nn.ci/zh/", newTab: true },
-          { text: "nezha", link: "https://nezha.wiki/guide/dashboard.html", newTab: true },
+          { text: "Blog", link: "https://renxiuf.github.io", newTab: true },
+          // { text: "twikoo", link: "https://github.com/yutian81/twikoo", newTab: true },
+          // { text: "alist", link: "https://alist.nn.ci/zh/", newTab: true },
+          // { text: "nezha", link: "https://nezha.wiki/guide/dashboard.html", newTab: true },
         ],
       }, 
       {        
@@ -280,23 +280,23 @@ export const themeConfig = {
           { text: "关于本站", link: "/pages/about" },
           { text: "隐私政策", link: "/pages/privacy" },
           { text: "版权协议", link: "/pages/cc" },
-          { text: "致谢名单", link: "/pages/thanks" },
+          // { text: "致谢名单", link: "/pages/thanks" },
         ],
       },
-      {
-        text: "网站服务",
-        items: [
-          { text: "音乐时刻", link: "https://blog.811520.xyz/music/", newTab: true },
-          { text: "站点状态", link: "https://uptime.ytian.us.kg/status/service", newTab: true },
-          { text: "站点订阅", link: "https://blog2.811520.xyz/rss.xml", newTab: true },
-          { text: "问题反馈", link: "https://github.com/yutian81/yutian81.github.io/issues", newTab: true, },
-        ],
-      },
+      // {
+      //   text: "网站服务",
+      //   items: [
+      //     { text: "音乐时刻", link: "https://blog.811520.xyz/music/", newTab: true },
+      //     { text: "站点状态", link: "https://uptime.ytian.us.kg/status/service", newTab: true },
+      //     { text: "站点订阅", link: "https://blog2.811520.xyz/rss.xml", newTab: true },
+      //     { text: "问题反馈", link: "https://github.com/yutian81/yutian81.github.io/issues", newTab: true, },
+      //   ],
+      // },
     ],
   },
   // 评论
   comment: {
-    enable: true,
+    enable: false,
     // 评论系统选择
     // artalk / twikoo
     type: "twikoo",
@@ -419,3 +419,4 @@ export const themeConfig = {
     "51la": "",
   },
 };
+
