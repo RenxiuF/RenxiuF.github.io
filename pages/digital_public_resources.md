@@ -17,12 +17,12 @@ articleGPT: 这里分享了一些网络公共资源，包括在线图书馆、�
 
 ### 外文数字资源
 
-1. [**Project Gutenberg（古登堡计划）**](www.gutenberg.org)
+1. [**Project Gutenberg（古登堡计划）**](https://www.gutenberg.org/)
 
 - 是一个以自由的和电子化的形式，基于互联网，大量提供版权过期而进入公有领域书籍的一项协作计划。世界上第一个数字图书馆，拥有超过6万本免费电子书，提供多种格式（EPUB, Kindle, HTML, 纯文本）。
 - 网址：`https://www.gutenberg.org/`
 
-2. [**Standard Ebooks**]()
+2. [**Standard Ebooks**](https://standardebooks.org/)
 
 - 在古登堡计划的基础上，对电子书的排版和格式进行了精心的美化，阅读体验更佳。
 - 网址：`https://standardebooks.org/`
@@ -70,5 +70,6 @@ articleGPT: 这里分享了一些网络公共资源，包括在线图书馆、�
 
 * 免费、开放的教育资源，供给全世界各地的机构、学生和自学者使用
 * 网址：`https://ocw.mit.edu/`
+
 
 
