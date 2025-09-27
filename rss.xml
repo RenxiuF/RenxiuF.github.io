@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>简单生活的万事屋</title>
+        <link>https://renxiuf.github.io</link>
+        <description>Hello World</description>
+        <lastBuildDate>Sat, 27 Sep 2025 02:47:12 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>RenxiuF</generator>
+        <language>zh</language>
+        <copyright>Copyright © 2020-present RenxiuF</copyright>
+        <item>
+            <title><![CDATA[Docker的使用]]></title>
+            <link>https://renxiuf.github.io/posts/2025/20250920</link>
+            <guid>https://renxiuf.github.io/posts/2025/20250920</guid>
+            <pubDate>Thu, 18 Sep 2025 00:00:00 GMT</pubDate>
+            <author>mailto:xiuzs_1366@163.com (RenxiuF)</author>
+        </item>
+        <item>
+            <title><![CDATA[LlamaIndex及魔搭平台API-Inference服务的使用]]></title>
+            <link>https://renxiuf.github.io/posts/2025/20250907</link>
+            <guid>https://renxiuf.github.io/posts/2025/20250907</guid>
+            <pubDate>Sun, 07 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[LlamaIndex]]></description>
+            <author>mailto:xiuzs_1366@163.com (RenxiuF)</author>
+        </item>
+        <item>
+            <title><![CDATA[RAG]]></title>
+            <link>https://renxiuf.github.io/posts/2025/20250824</link>
+            <guid>https://renxiuf.github.io/posts/2025/20250824</guid>
+            <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[RAG全流程]]></description>
+            <author>mailto:xiuzs_1366@163.com (RenxiuF)</author>
+        </item>
+        <item>
+            <title><![CDATA[用 github pages 部署博客]]></title>
+            <link>https://renxiuf.github.io/posts/2025/20250823</link>
+            <guid>https://renxiuf.github.io/posts/2025/20250823</guid>
+            <pubDate>Sat, 23 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[作者的仓库和博客只介绍了本地部署和 vercel 部署两种方式，是否可以部署到 github pages 和 cf pages 呢？答案是可以的！]]></description>
+            <author>mailto:xiuzs_1366@163.com (RenxiuF)</author>
+        </item>
+        <item>
+            <title><![CDATA[欢迎使用 Curve]]></title>
+            <link>https://renxiuf.github.io/posts/2024-10/1010</link>
+            <guid>https://renxiuf.github.io/posts/2024-10/1010</guid>
+            <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[欢迎使用 Curve 主题，这是你的第一篇文章]]></description>
+            <author>mailto:xiuzs_1366@163.com (RenxiuF)</author>
+        </item>
+    </channel>
+</rss>
